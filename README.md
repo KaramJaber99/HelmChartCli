@@ -1,7 +1,10 @@
 Helm cli for adding and installing helm charts and deploying the JFrog Artifactory.
 ## How to Install
-1. curl -fl https://github.com/KaramJaber99/HelmChartCli/blob/main/helmcli.sh | bash 
-3. execute ‘helmcli’ commands `helmcli` See [Examples](#Examples) section for commands to run.
+ 1,
+ ``` sh
+$ curl -fl https://github.com/KaramJaber99/HelmChartCli/blob/main/helmcli.sh | bash
+````
+2.execute ‘helmcli’ commands `helmcli` See [Examples](#Examples) section for commands to run.
 ## Documentation for required libraries
 - https://click.palletsprojects.com/en/8.0.x/
 - https://docs.python-requests.org/en/latest/
@@ -21,6 +24,7 @@ For installing and deploying JFrog Artifactory: <br />
 ``` sh
 $ helmcli artifactory 
 ````
+
 
 
 ```commandline
